@@ -164,7 +164,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/ncurses-6.6-hf8d1292_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/netifaces-0.11.0-py312hcd1a082_4.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/numpy-2.4.3-py312h6615c27_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/opencv-4.13.0-qt6_py312h9f28c02_606.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openexr-3.4.11-hda3a014_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openh264-2.6.0-h0564a2a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openjph-0.27.2-h55827e0_0.conda
@@ -2177,19 +2176,6 @@ packages:
   license_family: BSD
   size: 7841597
   timestamp: 1773839274579
-- conda: https://conda.anaconda.org/conda-forge/linux-aarch64/opencv-4.13.0-qt6_py312h9f28c02_606.conda
-  sha256: da92aef7362fe07b61dad59baeaea247092d4c42157ba38825e550cc2f5d0232
-  md5: 9023cba3ae68e3c462c73db7f026eb1f
-  depends:
-  - hdf5 >=1.14.6,<1.14.7.0a0
-  - libopencv 4.13.0 qt6_py312h2034ceb_606
-  - libprotobuf >=6.33.5,<6.33.6.0a0
-  - py-opencv 4.13.0 qt6_py312hac11903_606
-  - python_abi 3.12.* *_cp312
-  license: Apache-2.0
-  license_family: Apache
-  size: 28632
-  timestamp: 1775918334050
 - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openexr-3.4.11-hda3a014_0.conda
   sha256: d6caa2bb7f5b3b8736c550334d08bf7548c995f091c6222de9fafea44f41eae0
   md5: ba412cca7c731a966158183a21b7b103
