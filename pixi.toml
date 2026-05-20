@@ -1,0 +1,21 @@
+[workspace]
+channels = ["conda-forge", "https://prefix.dev/robostack-noetic", "https://prefix.dev/conda-forge"]
+name = "overhead-camera"
+platforms = ["linux-aarch64"]
+version = "0.1.0"
+
+[tasks]
+start = "roslaunch ./usb_cam.launch"
+
+[dependencies]
+python = "3.12.*"
+opencv = ">=4.13.0,<5"
+ros-noetic-rospy = ">=1.17.4,<2"
+ros-noetic-sensor-msgs = ">=1.13.2,<2"
+ros-noetic-cv-bridge = ">=1.16.2,<2"
+ros-noetic-usb-cam = ">=0.3.7,<0.4"
+ros-noetic-roslaunch = ">=1.17.4,<2"
+ros-noetic-image-transport-plugins = ">=1.15.0,<2"
+
+[activation]
+scripts = ["env.sh"]
